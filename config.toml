@@ -1,0 +1,50 @@
+baseURL = "https://blog.nightmared.fr/"
+languageCode = "en-us"
+title = "nightmared's rambles"
+theme = "yaht"
+
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "colorful"
+
+[menu]
+[[menu.nav]]
+    name = "The void"
+    pre = "home"
+    url = "https://nightmared.fr"
+    weight = 1
+  [[menu.nav]]
+    name = "Blog"
+    pre = "edit-2"
+    url = "/post/"
+    weight = 2
+  [[menu.nav]]
+    name = "RSS"
+    pre = "rss"
+    url = "/index.xml"
+    weight = 3
+  [[menu.nav]]
+    name = "About"
+    pre = "crosshair"
+    url = "/about/"
+    weight = 4
+  [[menu.nav]]
+    name = "Contact"
+    pre = "mail"
+    url = "/contact/"
+    weight = 5
+  [[menu.nav]]
+    name = "Github"
+    pre = "github"
+    url = "https://github.com/nightmared"
+    weight = 6
+  [[menu.nav]]
+    name = "Twitter"
+    pre = "twitter"
+    url = "https://twitter.com/_nightmared"
+    weight = 7
+
+
+[params]
+footerText = "It's turtles all the way down - https://github.com/nightmared/site-perso"
+dateFormat = "Jan 2, 2006"

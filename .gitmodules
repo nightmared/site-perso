@@ -1,0 +1,3 @@
+[submodule "themes/yaht"]
+	path = themes/yaht
+	url = https://github.com/nightmared/yaht.git
