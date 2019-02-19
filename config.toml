@@ -7,6 +7,9 @@ pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsStyle = "colorful"
 
+[permalinks]
+  posts = "/:slug"
+
 [menu]
 [[menu.nav]]
     name = "The void"
@@ -16,7 +19,7 @@ pygmentsStyle = "colorful"
   [[menu.nav]]
     name = "Blog"
     pre = "edit-2"
-    url = "/post/"
+    url = "/posts/"
     weight = 2
   [[menu.nav]]
     name = "RSS"
@@ -47,4 +50,4 @@ pygmentsStyle = "colorful"
 
 [params]
 footerText = "It's turtles all the way down - https://github.com/nightmared/site-perso"
-dateFormat = "Jan 2, 2006"
+dateFormat = "2 January 2006 at 06:04"
