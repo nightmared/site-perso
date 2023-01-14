@@ -3,12 +3,15 @@ languageCode = "en-us"
 title = "nightmared's rambles"
 theme = "yaht"
 
+[author]
+    name = "Simon THOBY"
+
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsStyle = "colorful"
 
 [permalinks]
-  posts = "/:slug"
+  posts = "/posts/:slug"
 
 [menu]
 [[menu.nav]]
@@ -24,7 +27,7 @@ pygmentsStyle = "colorful"
   [[menu.nav]]
     name = "RSS"
     pre = "rss"
-    url = "/index.xml"
+    url = "/posts/index.xml"
     weight = 3
   [[menu.nav]]
     name = "About"
@@ -41,13 +44,9 @@ pygmentsStyle = "colorful"
     pre = "github"
     url = "https://github.com/nightmared"
     weight = 6
-  [[menu.nav]]
-    name = "Twitter"
-    pre = "twitter"
-    url = "https://twitter.com/_nightmared"
-    weight = 7
+
 
 
 [params]
 footerText = "It's turtles all the way down - https://github.com/nightmared/site-perso"
-dateFormat = "2 January 2006 at 06:04"
+dateFormat = "2 January 2006 at 15:04 (CET)"

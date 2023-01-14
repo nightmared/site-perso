@@ -1,15 +1,20 @@
 ---
 title: "Who am I ?"
 date: 2019-02-19T14:41:21+01:00
+lastmod: 2023-01-14T16:47:09+01:00
 draft: false
 ---
 
-I'm Simon THOBY, an [ENSEEIHT](http://www.enseeiht.fr/en/) student fascinated by computer science.
+I'm Simon, amd my dubious pseudo is *nightmared*.
 
-My main centers of interest, as I just said, are computer security (including cryptography), development (in C, Rust and sometimes shell scripts when I want to do horribleC^W hacky stuff), reading some fantasy/sci-phy books.
+At work, I'm a Computer Security Engineer, aka. someone that knows computer security is hopeless but have come to terms with that idea, and is meekly trying not to degrade the situation further.
 
-I am a fervent enthusiast of FOSS (Free and Open-Source Software) such as Mozilla's browser, the famous community-driven language [rust](https://www.rust-lang.org) or voidlinux package manager, [xbps](https://github.com/void-linux/xbps) (try it out, it's insanely fast compared to rpm and aptitude. Besides, the shlibs management, albeit primitive, is rather efficient).
+Outside of work, I'm just a french guy - so yes, I eat *baguette*s, but who doesn't? - that likes watching mindless TV series, and reading some fantasy/sci-fi books (currently churning through the great *The Wheel of Time*), and expressing patently wrong ideas about computers.
 
-I have a great interest in the BSD, despite the difficulty of migrating from Linux to BSD considering the current filesystems situation: ZFS may be the only viable alternative, but it doesn't work alongside cryptsetup to the best of my knowledge. That's why I'm still on [Void Linux](https://voidlinux.org). However, I have to admit there is plenty of great ideas in the [NixOS](https://nixos.org) distribution.
+But seeing as I'm neither a TV or book critic, I can only assume you landed on this page because you were either deeply lost on the internet, or looking for something related to computers. If you are lost, I believe you know what to do (`pkill -9 firefox`).
+
+If you are of the latter breed, I must confess I still naïvely believes in the idea of Free Software, and I tremendously enjoy using the heaps of free software developed in the past few decades, particularly Mozilla Firefox, Rust's ecosystem (the language, not the game), Nix/NixOS (of which I'm a happy, but conflicted user), sway, alacritty, systemd, ...
+
+I also sometimes do some light development (mostly in Rust and Python, with some very light touch of C and shell scripts when I want to write quick & dirty one-off code), which you may (or not) find on github.com or gitlab.com.
 
 Anyway, that's all I can say !
