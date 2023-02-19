@@ -14,11 +14,11 @@ pygmentsStyle = "colorful"
   posts = "/posts/:slug"
 
 [menu]
-[[menu.nav]]
-    name = "The void"
-    pre = "home"
-    url = "https://nightmared.fr"
-    weight = 1
+  #[[menu.nav]]
+  #  name = "The void"
+  #  pre = "home"
+  #  url = "https://nightmared.fr"
+  #  weight = 1
   [[menu.nav]]
     name = "Blog"
     pre = "edit-2"
@@ -46,6 +46,9 @@ pygmentsStyle = "colorful"
     weight = 6
 
 
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
 
 [params]
 footerText = "It's turtles all the way down - https://github.com/nightmared/site-perso"
